@@ -1,0 +1,6 @@
+---
+# tasks file for centos
+ - name: Installing lynx
+   yum:
+      name: lynx
+      state: present
